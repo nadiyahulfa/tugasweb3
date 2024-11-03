@@ -1,0 +1,104 @@
+.box {
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: lavender;
+	text-align: justify;
+	border: 4px solid black; 
+}
+	
+
+i {
+	font-size: 13px;
+	color: white;
+	margin: 10px;
+}
+
+a:link {
+	color: green;
+}
+a:hover {
+	color: lavender;
+}
+a:visited {
+	color: blueviolet;
+}
+a:active {
+	color: lightblue;
+}
+
+ul {
+	background-color: gray;
+	padding: 20px;
+}
+
+ul li {
+	background: lavender;
+	color: black;
+	margin: 5px;
+}
+
+p {
+	border: 5px solid brown;
+	outline-style: ridge;
+	outline-color: goldenrod;
+	outline-width: 5px;
+	outline-offset: 0px;
+	text-indent: 35px;
+	background-color: bisque;
+}
+
+h1 {
+	background-color: azure;
+	color: black;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+}
+
+h2 {
+	background-color: azure;
+	color: black;
+	text-decoration: underline green;
+	text-align: center;
+}
+
+h5 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table, th, td {
+	border: 2px solid;
+}
+
+table {
+	width: 70%;
+	border-collapse: collapse;
+}
+
+tr :hover { background-color: gray; }
+
+th {
+	height: 50px;
+	text-align: center;
+	background-color: rgb(40, 40, 81);
+	padding: 20px;
+	color: white;
+}
+
+td {
+	text-align: center;
+	padding: 2px;
+	color: white;
+}
+
+img {
+	width: 1000px;
+	height: 500px;
+	margin-left: 100px;
+}
+
+address {
+	text-align: right;
+	color: azure;
+}
